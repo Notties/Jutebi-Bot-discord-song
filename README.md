@@ -1,6 +1,6 @@
 ﻿# Jutebi-Bot-discord-song
 
-## Invite Jutebi to your server: https://bit.ly/38zlBg6
+## Invite Jutebi to your server: <a href="https://bit.ly/38zlBg6" target="_blank">Jutebi Jutebi!❤️</a> 
 
 ## Prefix: "/"
 
