@@ -57,18 +57,18 @@ else {
         console.log(`Logged in as ${client.user.tag}`)
 
         const arrayOfStatus = [
-            `Over ${client.GUILDS.cache.size} Servers!`
-            `Prefix is: '/'`
-            `Jutebi Jutebi ❤️`
+            `Over ${client.guilds.cache.size} Servers!`,
+            `Prefix: '/'`,
+            `Jutebi Jutebi ❤️`,
         ];
-        
+
         let index = 0;
         setInterval(() => {
             if(index === arrayOfStatus.length) index = 0;
             const status = arrayOfStatus[index];
-            client.user.setActivity(status, {type: "WATCHING"}).catch(console.error)
+            client.user.setActivity(status, {type: 2})
             index++;
-        }, 5000)
+        }, 10000)
     })
     client.on("interactionCreate", (interaction) => {
         async function handleCommand() {
